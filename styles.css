@@ -1,0 +1,67 @@
+body {
+	font-family: "Spartan", sans-serif;
+	background-color: snow;
+}
+
+h1 {
+    text-align: center;
+    color: darkgray;
+    font-size: 3.5em;
+}
+
+button {
+	background-color: #f3f5f7;
+	border: .5px solid whitesmoke;
+	margin: 20px;
+	box-shadow: 3px 3px Gainsboro;
+	border-radius: 15px;
+}
+
+button h1{
+  font-size: 5rem;
+}
+
+#info h1 {
+	text-align: center;
+	font-size: 2rem;
+  color: gray;
+}
+
+.game-board {
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	background-image: radial-gradient(rgb(117, 119, 118), rgb(88, 88, 88));
+	color: darkgray;
+	border: 1px solid whitesmoke;
+    box-shadow: 1px 1px Gainsboro;
+	border-radius: 10px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+}
+
+.grid-row {
+	background-color: white;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tik {
+	border-radius: 6px;
+}
+
+.pink {
+	background: -webkit-linear-gradient(rgb(20, 141, 255), rgb(59, 52, 160));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: transparent;
+}
+
+.blue {
+	background: -webkit-linear-gradient(rgb(55, 92, 206), white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: transparent;
+}
